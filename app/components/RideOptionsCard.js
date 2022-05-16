@@ -54,7 +54,7 @@ const RideOptionsCard = () => {
         <SafeAreaView style={tailwind`bg-white flex-grow`}>
             <View>
                 <TouchableOpacity
-                    style={tailwind`absolute -top-2 left-5 p-3 rounded-full `}
+                    style={tailwind`absolute -top-2 left-5 p-3 rounded-full z-50`}
                     onPress={() => navigation.navigate("NavigateCard")}
                 >
                     <Icon
